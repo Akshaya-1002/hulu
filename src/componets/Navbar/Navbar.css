@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav::-webkit-scrollbar{
+    display: none;
+}
+
+.nav > h3{
+    cursor: pointer;
+    margin: 0 25px;
+    /* margin: 0 30px; */
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: transform 50ms ease-in-out;
+}
+
+.nav> h3:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    /* transform: scale(1.2); */
+}

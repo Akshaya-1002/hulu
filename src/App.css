@@ -1,0 +1,515 @@
+  body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #051421, #042727);
+  }
+  
+   .nav_logo {
+    height: 50px;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+
+.header nav .login-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+    margin: 10% auto;
+    width: 400px;
+    background: #fff;
+    color: #333;
+    position: relative;
+    animation: modal_open 1s;
+}
+
+@keyframes modal_open {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-body {
+    padding: 50px 50px 20px 50px;
+}
+
+.modal-body h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.modal-body .btn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.modal .close {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.form-control label {
+    display: block;
+    text-transform: uppercase;
+}
+
+.form-control input {
+    width: 100%;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.sign_up {
+    display: inline-block;
+    color: #333;
+    min-width: 135px;
+    padding: 20px 6px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+}
+
+.note{
+  font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+  
+  .nav_btn {
+    padding: 10px 15px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.7s ease;
+    letter-spacing: 0.6px;
+  }
+  
+  .nav_btn:hover {
+    background-color: gray;
+    transition: background-color 0.7s ease;
+    color: rgba(255, 255, 255, 0.815);
+  }
+  
+  .container_1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.219)),
+      url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  
+  .box_left,
+  .box_right {
+    width: 300px;
+  }
+
+  /* main box */
+  
+  .main_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 5%;
+  }
+  
+  .main_box p {
+    font-size: 14px;
+    color: rgb(0, 237, 130);
+    font-weight: bold;
+  }
+  
+  .main_box h1 {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .box_left img {
+    width: 200px;
+    margin-top: 15px;
+  }
+  
+  .box_right img {
+    width: 255px;
+    margin-top: 15px;
+  }
+  
+  .box_left button,
+  .box_right button {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .plan_one,
+  .plan_two {
+    width: 100%;
+    padding: 13px 0px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(0, 237, 130);
+    cursor: pointer;
+  }
+  
+  .sign_up {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .sign_up a {
+    color: white;
+  }
+  
+  .container_2 {
+    background-image: linear-gradient(to right, #051421, #042727);
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .line_3 {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+  .line_1 {
+    color: rgb(0, 237, 130);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .line_2 {
+    font-size: 48px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card_1 {
+    border: 4px solid #051421;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.427)),
+      url("https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original");
+    background-size: cover;
+  }
+  
+  .card_2 {
+    border: 4px solid black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.427)),
+      url("https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original");
+    background-size: cover;
+  }
+  
+  .card_3 {
+    border: 4px solid rgba(0, 0, 0, 0.941);
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.427)),
+      url("https://cnbl-cdn.bamgrid.com/assets/6293f29d56ae0519362951fa38cf62f61004662eb674e61d99e93e7f064d74ff/original");
+    background-size: cover;
+  }
+  
+  .card_4 {
+    border: 4px solid #042727e2;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.427)),
+      url("https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original");
+    background-size: cover;
+  }
+  
+  .card_1:hover {
+    border: 4px solid gray;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.614)),
+      url("https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original");
+    background-size: cover;
+  }
+  
+  .card_2:hover {
+    border: 4px solid gray;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.614)),
+      url("https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original");
+    background-size: cover;
+  }
+  
+  .card_3:hover {
+    border: 4px solid gray;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.614)),
+      url("https://cnbl-cdn.bamgrid.com/assets/6293f29d56ae0519362951fa38cf62f61004662eb674e61d99e93e7f064d74ff/original");
+    background-size: cover;
+  }
+  
+  .card_4:hover {
+    border: 4px solid gray;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.614)),
+      url("https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original");
+    background-size: cover;
+  }
+  
+  .card_1 h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_1 h2 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_2 h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_2 h2 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_3 h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_3 h2 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_4 h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .card_4 h2 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .part_2 {
+    margin-top: 100px;
+  }
+  
+  /* container_3 */
+
+
+  .container_3 {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.358),
+        rgba(0, 0, 0, 0.049)
+      ),
+      url("https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 18%;
+  }
+  
+  .heading_1 {
+    color: white;
+    font-size: 48px;
+  }
+  
+  .para_1 {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box_1 {
+    width: 460px;
+  }
+  
+  .live_sports_images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imgs img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 1px solid lightblue;
+  }
+  
+  /* container_4 */
+
+  .container_4 {
+    font-size: 14px;
+    background-color: rgb(232, 234, 237);
+    color: rgb(88, 97, 116);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .head_1 {
+    font-size: 12px;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+  }
+  
+  .container_5 {
+    background-color: rgb(232, 234, 237);
+    padding: 20px 5%;
+  }
+  
+  .container_5 img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 234, 237);
+    color: rgb(88, 97, 116);
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+
+  /* media query */
+  @media only screen and (max-width: 600px) {
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .main_box {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      gap: 40px;
+      margin-top: 25%;
+      padding: 0px 20px;
+    }
+
+    .box_left img {
+      width: 100px;
+      margin-top: 15px;
+    }
+    
+    .box_right img {
+      width: 155px;
+      margin-top: 15px;
+    }
+
+    .plan_one{
+      margin-top: 7px;
+    }
+
+    .plan_one,
+    .plan_two {
+      width: 100%;
+      padding: 13px 0px;
+      border-radius: 3px;
+      background-color: rgb(0, 237, 130);
+      cursor: pointer;
+    }
+
+    .main_box p {
+      font-size: 12px;
+      color: rgb(0, 237, 130);
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .main_box h1 {
+      color: white;
+      font-size: 20px;
+    }
+
+    .container_3{
+      padding-left: 4%;
+      /* text-align: left; */
+    }
+
+  }
